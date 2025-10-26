@@ -1,3 +1,9 @@
 [submodule "onboarding-coursework"]
 	path = onboarding-coursework
 	url = https://github.com/japostadan/Module-Onboarding.git
+[submodule "bio-page-homework"]
+	path = bio-page-homework
+	url = https://github.com/japostadan/GitHomeworkTest.git
+[submodule "fix-errors-homework"]
+	path = fix-errors-homework
+	url = https://github.com/japostadan/GitHomeworkFixErrors.git
