@@ -1,0 +1,3 @@
+[submodule "onboarding-coursework"]
+	path = onboarding-coursework
+	url = https://github.com/japostadan/Module-Onboarding.git
