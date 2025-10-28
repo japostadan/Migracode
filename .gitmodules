@@ -7,3 +7,6 @@
 [submodule "fix-errors-homework"]
 	path = fix-errors-homework
 	url = https://github.com/japostadan/GitHomeworkFixErrors.git
+[submodule "bikes-for-refugees"]
+	path = bikes-for-refugees
+	url = git@github.com:japostadan/bikes-for-refugees.git
