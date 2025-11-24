@@ -6,10 +6,12 @@ Each folder is a Git submodule linked to my personal fork of the MigraCode cours
 
 ## 📂 Structure
 
-| Module     | Folder                                              | Description                                             |
-| ---------- | --------------------------------------------------- | ------------------------------------------------------- |
-| Onboarding-module | [`onbaording-coursework`](./onboarding-coursework/) | Introductory phase to familiarize the course workf-flow |
-| --- | --- | --- |
+| Module                              | Folder                                                                          | Description                                                            |
+| ----------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| Onboarding-module                   | [`onbaording-coursework`](./onboarding-coursework/)                             | Introductory phase to familiarize the course workf-flow                |
+| Structuring-and-Testing-Data Module | [`Module-Structuring-and-Testing-Data`](./Module-Structuring-and-Testing-Data/) | Data testing and structuring, Javascript and Python Introductory Phase |
+| course-notes                        | [`course-notes`](./Module)                                                      | My notes directory                                                     |
+| ---                                 | ---                                                                             | ---                                                                    |
 
 ---
 

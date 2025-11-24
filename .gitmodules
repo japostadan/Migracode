@@ -10,3 +10,6 @@
 [submodule "bikes-for-refugees"]
 	path = bikes-for-refugees
 	url = git@github.com:japostadan/bikes-for-refugees.git
+[submodule "Module-Structuring-and-Testing-Data"]
+	path = Module-Structuring-and-Testing-Data
+	url = https://github.com/japostadan/Module-Structuring-and-Testing-Data.git

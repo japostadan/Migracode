@@ -1,0 +1,21 @@
+# General
+.DS_Store
+__MACOSX/
+.AppleDouble
+.LSOverride
+Icon[]
+._*
+
+# Ignore contents of all submodule directories, but not the submodule reference
+**/*/
+**/.git/
+**/*/*.log
+**/*/*.tmp
+**/*/target/
+**/*/node_modules/
+
+# Ensure the .gitmodules file is not ignored (important for tracking submodule config)
+!.gitmodules
+
+# Make sure notes folder is NOT ignored (explicitly include it)
+!course_note/
