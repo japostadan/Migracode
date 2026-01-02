@@ -13,3 +13,6 @@
 [submodule "Module-Structuring-and-Testing-Data"]
 	path = Module-Structuring-and-Testing-Data
 	url = https://github.com/japostadan/Module-Structuring-and-Testing-Data.git
+[submodule "Module-Data-Groups"]
+	path = Module-Data-Groups
+	url = https://github.com/japostadan/Module-Data-Groups.git
