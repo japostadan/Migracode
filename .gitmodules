@@ -16,3 +16,6 @@
 [submodule "Module-Data-Groups"]
 	path = Module-Data-Groups
 	url = https://github.com/japostadan/Module-Data-Groups.git
+[submodule "Module-Data-Flows"]
+	path = Module-Data-Flows
+	url = https://github.com/japostadan/Module-Data-Flows.git
