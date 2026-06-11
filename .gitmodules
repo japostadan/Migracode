@@ -1,5 +1,5 @@
-[submodule "onboarding-coursework"]
-	path = onboarding-coursework
+[submodule "Module-Onboarding"]
+	path = Module-Onboarding
 	url = https://github.com/japostadan/Module-Onboarding.git
 [submodule "bio-page-homework"]
 	path = bio-page-homework
@@ -19,3 +19,12 @@
 [submodule "Module-Data-Flows"]
 	path = Module-Data-Flows
 	url = https://github.com/japostadan/Module-Data-Flows.git
+[submodule "Module-Tools"]
+	path = Module-Tools
+	url = git@github.com:japostadan/Module-Tools.git
+[submodule "Module-Decomposition"]
+	path = Module-Decomposition
+	url = https://github.com/japostadan/Module-Decomposition.git
+[submodule "Module-Legacy-Code"]
+	path = Module-Legacy-Code
+	url = https://github.com/japostadan/Module-Legacy-Code.git

@@ -1,17 +1,24 @@
-# 🎓 My Coursework Portfolio
+# My Coursework Portfolio
 
 This repository is my **MigraCode Coursework Portfolio**, containing all my project work and activities organized by module.
 
 Each folder is a Git submodule linked to my personal fork of the MigraCode coursework templates.
 
-## 📂 Structure
+## Structure
 
-| Module                              | Folder                                                                          | Description                                                            |
-| ----------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| Onboarding-module                   | [`onbaording-coursework`](./onboarding-coursework/)                             | Introductory phase to familiarize the course workf-flow                |
-| Structuring-and-Testing-Data Module | [`Module-Structuring-and-Testing-Data`](./Module-Structuring-and-Testing-Data/) | Data testing and structuring, Javascript and Python Introductory Phase |
-| course-notes                        | [`course-notes`](./Module)                                                      | My notes directory                                                     |
-| ---                                 | ---                                                                             | ---                                                                    |
+| Module | Folder | Description |
+| --- | --- | --- |
+| Onboarding | [`Module-Onboarding`](./Module-Onboarding/) | Introductory phase — course workflow, wireframes, form controls |
+| Structuring and Testing Data | [`Module-Structuring-and-Testing-Data`](./Module-Structuring-and-Testing-Data/) | Data structuring, testing, JavaScript and Python intro |
+| Data Groups | [`Module-Data-Groups`](./Module-Data-Groups/) | Arrays, objects, higher-order functions (3 sprints) |
+| Data Flows | [`Module-Data-Flows`](./Module-Data-Flows/) | Async, fetch, EJS, debugging, unit testing |
+| Tools | [`Module-Tools`](./Module-Tools/) | Shell tools, jq, pipelines, number systems, Python prep |
+| Decomposition | [`Module-Decomposition`](./Module-Decomposition/) | Middleware, server decomposition, chat app |
+| Legacy Code | [`Module-Legacy-Code`](./Module-Legacy-Code/) | Reading and working with existing codebases |
+| Bikes for Refugees | [`bikes-for-refugees`](./bikes-for-refugees/) | HTML/CSS project — charity website rebuild |
+| Bio Page Homework | [`bio-page-homework`](./bio-page-homework/) | Git workflow homework |
+| Fix Errors Homework | [`fix-errors-homework`](./fix-errors-homework/) | Git workflow homework |
+| Course Notes | [`course-notes`](./course-notes/) | Personal notes per module |
 
 ---
 
