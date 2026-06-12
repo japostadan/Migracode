@@ -1,11 +1,6 @@
-<div align="center">
+# MigraCode Coursework
 
-# MigraCode Coursework — James Postadan
-
-**Learner at [MigraCode](https://migracode.openculturalcenter.org/) Barcelona**
-*A free coding bootcamp for refugees and migrants*
-
-</div>
+Coursework from [MigraCode Barcelona](https://migracode.openculturalcenter.org/), a free full-stack development bootcamp run by Open Cultural Center. The curriculum covers JavaScript, Node.js/Express, testing with Jest, shell tooling, and working with legacy code. Each module in this repo is a submodule tracking my completed work.
 
 ---
 
@@ -21,6 +16,8 @@
 | [Decomposition](./Module-Decomposition/) | ✅ Completed | Express middleware, server architecture, chat app with SSE |
 | [Legacy Code](./Module-Legacy-Code/) | ⏳ Up next | Reading and extending existing codebases |
 | [Bikes for Refugees](./bikes-for-refugees/) | ✅ Completed | HTML/CSS project — charity website rebuild |
+| [Bio Page Homework](./bio-page-homework/) | ✅ Completed | Git workflow exercise — fork, branch, pull request |
+| [Fix Errors Homework](./fix-errors-homework/) | ✅ Completed | Git workflow exercise — fixing content via branches and PRs |
 
 ---
 
