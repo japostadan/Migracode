@@ -1,0 +1,18 @@
+{
+  "name": "migracode-coursework",
+  "private": true,
+  "description": "Course page build for the MigraCode coursework portfolio",
+  "scripts": {
+    "test": "jest",
+    "build": "node site/build.js"
+  },
+  "jest": {
+    "roots": ["<rootDir>/test"]
+  },
+  "dependencies": {
+    "js-yaml": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}

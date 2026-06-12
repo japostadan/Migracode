@@ -21,6 +21,14 @@ Icon[]
 !.github/
 !.github/**
 
+# Course page: source and tests are tracked, build output is not
+!site/
+!site/**
+!test/
+!test/**
+_site/
+node_modules/
+
 # Local-only docs and assistant files
 docs/
 CONTEXT.md
