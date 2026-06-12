@@ -1,6 +1,7 @@
 [submodule "Module-Onboarding"]
 	path = Module-Onboarding
 	url = https://github.com/japostadan/Module-Onboarding.git
+	branch = main
 [submodule "bio-page-homework"]
 	path = bio-page-homework
 	url = https://github.com/japostadan/GitHomeworkTest.git
@@ -13,18 +14,24 @@
 [submodule "Module-Structuring-and-Testing-Data"]
 	path = Module-Structuring-and-Testing-Data
 	url = https://github.com/japostadan/Module-Structuring-and-Testing-Data.git
+	branch = main
 [submodule "Module-Data-Groups"]
 	path = Module-Data-Groups
 	url = https://github.com/japostadan/Module-Data-Groups.git
+	branch = main
 [submodule "Module-Data-Flows"]
 	path = Module-Data-Flows
 	url = https://github.com/japostadan/Module-Data-Flows.git
+	branch = main
 [submodule "Module-Tools"]
 	path = Module-Tools
-	url = git@github.com:japostadan/Module-Tools.git
+	url = https://github.com/japostadan/Module-Tools.git
+	branch = main
 [submodule "Module-Decomposition"]
 	path = Module-Decomposition
 	url = https://github.com/japostadan/Module-Decomposition.git
+	branch = main
 [submodule "Module-Legacy-Code"]
 	path = Module-Legacy-Code
 	url = https://github.com/japostadan/Module-Legacy-Code.git
+	branch = main

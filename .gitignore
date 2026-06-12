@@ -17,5 +17,15 @@ Icon[]
 # Ensure the .gitmodules file is not ignored (important for tracking submodule config)
 !.gitmodules
 
+# Superproject CI must be committed for GitHub Actions to run it
+!.github/
+!.github/**
+
+# Local-only docs and assistant files
+docs/
+CONTEXT.md
+CLAUDE.md
+.claude/
+
 # Make sure notes folder is NOT ignored (explicitly include it)
 !course_note/

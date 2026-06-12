@@ -1,0 +1,47 @@
+name: Sync submodule pointer
+
+on:
+  repository_dispatch:
+    types: [submodule-updated]
+  workflow_dispatch:
+    inputs:
+      module:
+        description: "Submodule path to sync (e.g. Module-Tools)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-submodule
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout superproject
+        uses: actions/checkout@v4
+
+      - name: Bump pointer to module's main
+        env:
+          MODULE: ${{ github.event_name == 'workflow_dispatch' && inputs.module || github.event.client_payload.module }}
+        run: |
+          # branch = main in .gitmodules is the allowlist: pinned homework
+          # submodules have no branch entry and are rejected here.
+          if [ "$(git config -f .gitmodules submodule."$MODULE".branch)" != "main" ]; then
+            echo "::error::'$MODULE' is not a main-tracking submodule"
+            exit 1
+          fi
+          URL=$(git config -f .gitmodules submodule."$MODULE".url)
+          NEW=$(git ls-remote "$URL" refs/heads/main | cut -f1)
+          CURRENT=$(git ls-tree HEAD "$MODULE" | awk '{print $3}')
+          if [ "$CURRENT" = "$NEW" ]; then
+            echo "Already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git update-index --cacheinfo 160000,"$NEW","$MODULE"
+          git commit -m "chore: sync $MODULE to ${NEW:0:7}"
+          git push origin main
