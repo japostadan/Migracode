@@ -35,3 +35,7 @@
 	path = Module-Legacy-Code
 	url = https://github.com/japostadan/Module-Legacy-Code.git
 	branch = main
+[submodule "Module-Complexity"]
+	path = Module-Complexity
+	url = https://github.com/japostadan/Module-Complexity.git
+	branch = main
