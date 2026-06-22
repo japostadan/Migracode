@@ -39,7 +39,6 @@
 	path = Module-Complexity
 	url = https://github.com/japostadan/Module-Complexity.git
 	branch = main
-[submodule "CV-Matching-Game"]
-	path = CV-Matching-Game
+[submodule "resumatch"]
+	path = resumatch
 	url = https://github.com/japostadan/Resumatch.git
-	branch = main
